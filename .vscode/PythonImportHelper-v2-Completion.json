@@ -1,0 +1,419 @@
+[
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "BertTokenizer",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "BertForSequenceClassification",
+        "importPath": "transformers",
+        "description": "transformers",
+        "isExtraImport": true,
+        "detail": "transformers",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.asgi",
+        "description": "ai_text_detection.ai_text_detection.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "ai_text_detection.ai_text_detection.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.settings",
+        "description": "ai_text_detection.ai_text_detection.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = \"django-insecure-(pbd&am^0z9rne0$p0nf#jewlwal6&*o2k2=p&hc%cwtug*_6#\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "ai_text_detection.ai_text_detection.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.settings",
+        "description": "ai_text_detection.ai_text_detection.settings",
+        "peekOfCode": "SECRET_KEY = \"django-insecure-(pbd&am^0z9rne0$p0nf#jewlwal6&*o2k2=p&hc%cwtug*_6#\"\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",",
+        "detail": "ai_text_detection.ai_text_detection.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.settings",
+        "description": "ai_text_detection.ai_text_detection.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",",
+        "detail": "ai_text_detection.ai_text_detection.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.settings",
+        "description": "ai_text_detection.ai_text_detection.settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"detection\",",
+        "detail": "ai_text_detection.ai_text_detection.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.settings",
+        "description": "ai_text_detection.ai_text_detection.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"django.contrib.admin\",\n    \"django.contrib.auth\",\n    \"django.contrib.contenttypes\",\n    \"django.contrib.sessions\",\n    \"django.contrib.messages\",\n    \"django.contrib.staticfiles\",\n    \"detection\",\n]\nMIDDLEWARE = [",
+        "detail": "ai_text_detection.ai_text_detection.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.settings",
+        "description": "ai_text_detection.ai_text_detection.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    \"django.middleware.security.SecurityMiddleware\",\n    \"django.contrib.sessions.middleware.SessionMiddleware\",\n    \"django.middleware.common.CommonMiddleware\",\n    \"django.middleware.csrf.CsrfViewMiddleware\",\n    \"django.contrib.auth.middleware.AuthenticationMiddleware\",\n    \"django.contrib.messages.middleware.MessageMiddleware\",\n    \"django.middleware.clickjacking.XFrameOptionsMiddleware\",\n]\nROOT_URLCONF = \"ai_text_detection.urls\"",
+        "detail": "ai_text_detection.ai_text_detection.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.settings",
+        "description": "ai_text_detection.ai_text_detection.settings",
+        "peekOfCode": "ROOT_URLCONF = \"ai_text_detection.urls\"\nTEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",",
+        "detail": "ai_text_detection.ai_text_detection.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.settings",
+        "description": "ai_text_detection.ai_text_detection.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        \"BACKEND\": \"django.template.backends.django.DjangoTemplates\",\n        \"DIRS\": [],\n        \"APP_DIRS\": True,\n        \"OPTIONS\": {\n            \"context_processors\": [\n                \"django.template.context_processors.debug\",\n                \"django.template.context_processors.request\",\n                \"django.contrib.auth.context_processors.auth\",",
+        "detail": "ai_text_detection.ai_text_detection.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.settings",
+        "description": "ai_text_detection.ai_text_detection.settings",
+        "peekOfCode": "WSGI_APPLICATION = \"ai_text_detection.wsgi.application\"\n# Database\n# https://docs.djangoproject.com/en/5.1/ref/settings/#databases\nDATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation",
+        "detail": "ai_text_detection.ai_text_detection.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.settings",
+        "description": "ai_text_detection.ai_text_detection.settings",
+        "peekOfCode": "DATABASES = {\n    \"default\": {\n        \"ENGINE\": \"django.db.backends.sqlite3\",\n        \"NAME\": BASE_DIR / \"db.sqlite3\",\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "ai_text_detection.ai_text_detection.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.settings",
+        "description": "ai_text_detection.ai_text_detection.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.UserAttributeSimilarityValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.MinimumLengthValidator\",\n    },\n    {\n        \"NAME\": \"django.contrib.auth.password_validation.CommonPasswordValidator\",\n    },",
+        "detail": "ai_text_detection.ai_text_detection.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.settings",
+        "description": "ai_text_detection.ai_text_detection.settings",
+        "peekOfCode": "LANGUAGE_CODE = \"en-us\"\nTIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = \"static/\"\n# Add this line to tell Django where your static files are located\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",  # Make sure \"static\" folder is at the root of your project",
+        "detail": "ai_text_detection.ai_text_detection.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.settings",
+        "description": "ai_text_detection.ai_text_detection.settings",
+        "peekOfCode": "TIME_ZONE = \"UTC\"\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = \"static/\"\n# Add this line to tell Django where your static files are located\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",  # Make sure \"static\" folder is at the root of your project\n]",
+        "detail": "ai_text_detection.ai_text_detection.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.settings",
+        "description": "ai_text_detection.ai_text_detection.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = \"static/\"\n# Add this line to tell Django where your static files are located\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",  # Make sure \"static\" folder is at the root of your project\n]\n# Default primary key field type",
+        "detail": "ai_text_detection.ai_text_detection.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.settings",
+        "description": "ai_text_detection.ai_text_detection.settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.1/howto/static-files/\nSTATIC_URL = \"static/\"\n# Add this line to tell Django where your static files are located\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",  # Make sure \"static\" folder is at the root of your project\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field",
+        "detail": "ai_text_detection.ai_text_detection.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.settings",
+        "description": "ai_text_detection.ai_text_detection.settings",
+        "peekOfCode": "STATIC_URL = \"static/\"\n# Add this line to tell Django where your static files are located\nSTATICFILES_DIRS = [\n    BASE_DIR / \"static\",  # Make sure \"static\" folder is at the root of your project\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "ai_text_detection.ai_text_detection.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.settings",
+        "description": "ai_text_detection.ai_text_detection.settings",
+        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR / \"static\",  # Make sure \"static\" folder is at the root of your project\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "ai_text_detection.ai_text_detection.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.settings",
+        "description": "ai_text_detection.ai_text_detection.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = \"django.db.models.BigAutoField\"",
+        "detail": "ai_text_detection.ai_text_detection.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.urls",
+        "description": "ai_text_detection.ai_text_detection.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('detection.urls')),  # Make sure this is correct\n]",
+        "detail": "ai_text_detection.ai_text_detection.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "ai_text_detection.ai_text_detection.wsgi",
+        "description": "ai_text_detection.ai_text_detection.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "ai_text_detection.ai_text_detection.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "DetectionConfig",
+        "kind": 6,
+        "importPath": "ai_text_detection.detection.apps",
+        "description": "ai_text_detection.detection.apps",
+        "peekOfCode": "class DetectionConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'detection'",
+        "detail": "ai_text_detection.detection.apps",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "ai_text_detection.detection.urls",
+        "description": "ai_text_detection.detection.urls",
+        "peekOfCode": "urlpatterns = [\n    path(\"\", views.index, name=\"index\"),\n    path(\"detect/\", views.detect, name=\"detect\"),\n]",
+        "detail": "ai_text_detection.detection.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "ai_text_detection.detection.views",
+        "description": "ai_text_detection.detection.views",
+        "peekOfCode": "def index(request):\n    return render(request, \"detection/index.html\")\ndef detect(request):\n    if request.method == \"POST\":\n        try:\n            data = json.loads(request.body)\n            input_text = data.get(\"input_text\")\n        except json.JSONDecodeError:\n            return JsonResponse({\"error\": \"Invalid input format\"}, status=400)\n        if not input_text:",
+        "detail": "ai_text_detection.detection.views",
+        "documentation": {}
+    },
+    {
+        "label": "detect",
+        "kind": 2,
+        "importPath": "ai_text_detection.detection.views",
+        "description": "ai_text_detection.detection.views",
+        "peekOfCode": "def detect(request):\n    if request.method == \"POST\":\n        try:\n            data = json.loads(request.body)\n            input_text = data.get(\"input_text\")\n        except json.JSONDecodeError:\n            return JsonResponse({\"error\": \"Invalid input format\"}, status=400)\n        if not input_text:\n            return JsonResponse({\"error\": \"No text provided\"}, status=400)\n        # Tokenize and encode input text",
+        "detail": "ai_text_detection.detection.views",
+        "documentation": {}
+    },
+    {
+        "label": "model_path",
+        "kind": 5,
+        "importPath": "ai_text_detection.detection.views",
+        "description": "ai_text_detection.detection.views",
+        "peekOfCode": "model_path = \"model/bert_model/\"\nmodel = BertForSequenceClassification.from_pretrained(model_path)\ntokenizer = BertTokenizer.from_pretrained(model_path)\n# Make sure the model is in evaluation mode\nmodel.eval()\ndef index(request):\n    return render(request, \"detection/index.html\")\ndef detect(request):\n    if request.method == \"POST\":\n        try:",
+        "detail": "ai_text_detection.detection.views",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "ai_text_detection.detection.views",
+        "description": "ai_text_detection.detection.views",
+        "peekOfCode": "model = BertForSequenceClassification.from_pretrained(model_path)\ntokenizer = BertTokenizer.from_pretrained(model_path)\n# Make sure the model is in evaluation mode\nmodel.eval()\ndef index(request):\n    return render(request, \"detection/index.html\")\ndef detect(request):\n    if request.method == \"POST\":\n        try:\n            data = json.loads(request.body)",
+        "detail": "ai_text_detection.detection.views",
+        "documentation": {}
+    },
+    {
+        "label": "tokenizer",
+        "kind": 5,
+        "importPath": "ai_text_detection.detection.views",
+        "description": "ai_text_detection.detection.views",
+        "peekOfCode": "tokenizer = BertTokenizer.from_pretrained(model_path)\n# Make sure the model is in evaluation mode\nmodel.eval()\ndef index(request):\n    return render(request, \"detection/index.html\")\ndef detect(request):\n    if request.method == \"POST\":\n        try:\n            data = json.loads(request.body)\n            input_text = data.get(\"input_text\")",
+        "detail": "ai_text_detection.detection.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "ai_text_detection.manage",
+        "description": "ai_text_detection.manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ai_text_detection.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "ai_text_detection.manage",
+        "documentation": {}
+    }
+]

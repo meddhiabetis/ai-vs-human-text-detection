@@ -1,0 +1,146 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Detection</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .container {
+        text-align: center;
+        background-color: #ffffff;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 80%;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      h1 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      label {
+        font-size: 18px;
+        margin-bottom: 10px;
+        display: block;
+      }
+
+      textarea {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+      }
+
+      button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 10px;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+
+      #result {
+        margin-top: 20px;
+        font-size: 18px;
+        color: #333;
+      }
+
+      #loading {
+        margin-top: 20px;
+        font-size: 18px;
+        color: #555;
+      }
+    </style>
+    <script>
+      function detectText(event) {
+        event.preventDefault(); // Prevent form from submitting normally
+
+        const inputText = document.getElementById("input_text").value;
+        const csrfToken = document.querySelector(
+          "[name=csrfmiddlewaretoken]"
+        ).value;
+
+        // Show loading indicator
+        document.getElementById("loading").style.display = "block";
+        document.getElementById("result").innerHTML = "";
+
+        fetch("{% url 'detect' %}", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+            "X-CSRFToken": csrfToken,
+          },
+          body: JSON.stringify({
+            input_text: inputText,
+          }),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            // Hide loading indicator
+            document.getElementById("loading").style.display = "none";
+
+            if (data.error) {
+              document.getElementById("result").innerText = data.error;
+            } else {
+              document.getElementById("result").innerHTML = `
+                Prediction: ${data.prediction} <br>
+                Confidence: ${data.confidence}%`;
+            }
+          })
+          .catch((error) => {
+            document.getElementById("loading").style.display = "none";
+            document.getElementById("result").innerText =
+              "An error occurred. Please try again.";
+          });
+      }
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Human vs AI Text Detection</h1>
+      <form id="textForm" onsubmit="detectText(event)">
+        {% csrf_token %}
+        <label for="input_text">Enter your text:</label><br /><br />
+        <textarea
+          id="input_text"
+          name="input_text"
+          rows="4"
+          cols="50"
+        ></textarea
+        ><br /><br />
+        <button type="submit">Detect</button>
+      </form>
+
+      <div id="loading" style="display: none">Loading...</div>
+      <!-- Loading indicator -->
+      <div id="result"></div>
+      <!-- Result section -->
+    </div>
+  </body>
+</html>
