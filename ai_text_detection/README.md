@@ -43,7 +43,7 @@ This is a web application that detects whether a given text is written by a huma
 
 -**example**
 
-![alt text](image.png)
+![alt text](example.png)
 
 # Usage
 - Enter any text in the input field and click Detect.
